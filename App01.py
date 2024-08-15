@@ -1,8 +1,6 @@
 import streamlit as st
 from PIL import Image 
 
-col1, col2 = st.columns(2)
-
 st.title("Llama entrevistada")
 st.header("No es una llama, pero suena mas divertido que un ciervo")
 st.write("texto texto, mucho texto")
@@ -12,6 +10,8 @@ st.image(image, caption="muy seria, no sabemos de que era la entrevista")
 
 texto = st.text_input("escribo aca algo diferente", "Demasiado diferente")
 st.write("el texto escrito es: ", texto)
+
+col1, col2 = st.columns(2) 
 
 with col1:
   st.subheader ("esta es la primera columna")
