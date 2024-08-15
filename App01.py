@@ -1,4 +1,4 @@
 import streamlit as st
-st.title("hola???")
-st.header("hola como va todo")
-st.write("diferente tipo de letra")
+st.title("Titulo")
+st.header("Subtitulo")
+st.write("texto texto, mucho texto")
