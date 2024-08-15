@@ -25,7 +25,7 @@ with col2:
   modo = st.radio("Cual es el animal de la imagen", ("Venado" , "Llama", "Ciervo"))
   if modo == "Venado":
     st.write("seguro?")
-  if modo == "Venado":
+  if modo == "Llama":
     st.write("Tal vez si, tal vez no")
   if modo == "Ciervo":
     st.write("si tu lo dices...")
