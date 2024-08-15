@@ -14,14 +14,14 @@ st.write("el texto escrito es: ", texto)
 col1, col2 = st.columns(2) 
 
 with col1:
-  st.subheader ("esta es la primera columna")
+  st.subheader ("Es mucho texto?")
   st.write("texto texto texto y mas texto... mucho texto")
   resp = st.checkbox("definitivamente es mucho texto")
   if resp:
     st.write("Correcto")
 
 with col2:
-  st.subheader ("Esta es la segunda columna")
+  st.subheader ("Otra pregunta:")
   modo = st.radio("Cual es el animal de la imagen", ("Venado" , "Llama", "Ciervo"))
   if modo == "Venado":
     st.write("seguro?")
