@@ -8,5 +8,5 @@ image = Image.open("LlamaHabla.png")
 
 st.image(image, caption="muy seria, no sabemos de que era la entrevista")
 
-texto = st.text_imput("escribo aca algo diferente", "Demasiado diferente")
+texto = st.text_input("escribo aca algo diferente", "Demasiado diferente")
 st.write("el texto escrito es: ", texto)
