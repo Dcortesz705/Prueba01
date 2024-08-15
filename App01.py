@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image 
 
 st.title("Llama entrevistada")
-st.header("No es una llama, pero suena mas divertido que un venado")
+st.header("No es una llama, pero suena mas divertido que un ciervo")
 st.write("texto texto, mucho texto")
 image = Image.open("LlamaHabla.png")
 
