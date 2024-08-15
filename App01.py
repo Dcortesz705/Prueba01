@@ -11,14 +11,14 @@ st.image(image, caption="muy seria, no sabemos de que era la entrevista")
 texto = st.text_input("escribo aca algo diferente", "Demasiado diferente")
 st.write("el texto escrito es: ", texto)
 
-with colum1:
+with col1:
   st.subheader ("esta es la primera columna")
   st.write("texto texto texto y mas texto... mucho texto")
   resp = st.checkbox("definitivamente es mucho texto")
   if resp:
     st.write("Correcto")
 
-with colum2:
+with col2:
   st.subheader ("Esta es la segunda columna")
   modo = st.radio("Cual es el animal de la imagen", ("Venado" , "Llama", "Ciervo"))
   if modo == "Venado":
