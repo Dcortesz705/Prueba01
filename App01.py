@@ -36,6 +36,9 @@ if st.button("Presioname"):
 else:
   st.write("PRESIONAME PUEEES")
 
+with st.sidebar:
+  st.subheader(""configure la modalidad)
+  mod_radio = st.radio ("Elije la modalidad a usar", ("Visual", "Haptica", "Auditiva"))
 
 
 
