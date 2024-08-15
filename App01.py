@@ -30,7 +30,11 @@ with col2:
   if modo == "Ciervo":
     st.write("si tu lo dices...")
 
-
+st.subheader("Uso de botones")
+if st.button("Presioname"):
+  st.write("Gracias, estoy mejor")
+else:
+  st.write("PRESIONAME PUEEES")
 
 
 
